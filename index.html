@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a><img src="Logo.jpg" alt=""><h1>kr store</h1></a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <main>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Usúario:</label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div><br>
+            <button type="submit">Entrar</button>
+        
+        </form>
+        <p>Ainda não tem cadastro? <a href="cadastro.html">Cadastre-se</a> aqui</p>
+    </div>
+</main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 kr store. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="/terms">Termos de Uso</a>
+                <a href="/privacy">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+    <video autoplay loop muted class="bg-video">
+        <source src="https://youtu.be/pOtBKhP5Rmc?si=e8B9Fqs39N2D52kY" type="video/mp4">
+    </video>
+    
+</body>
+</html>
